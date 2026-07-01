@@ -1,0 +1,13 @@
+# macOS
+.DS_Store
+# PHPStorm / VS Code
+.idea/
+.vscode/
+*.iml
+# Logs
+*.log
+# Runtime files
+var/
+# Local configuration
+config.local.php
+local_conf.php

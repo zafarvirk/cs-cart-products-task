@@ -1,0 +1,14 @@
+<addon scheme="3.0">
+    <id>product_sku_labels</id>
+    <version>1.0</version>
+    <priority>1000</priority>
+    <status>active</status>
+    <default_language>en</default_language>
+    <name>Product SKU and Labels</name>
+    <description>Allows admins to control a product-specific SKU and display product labels on catalog cards and product pages.</description>
+    <compatibility>
+        <core_version>
+            <min>4.20.0</min>
+        </core_version>
+    </compatibility>
+</addon>
