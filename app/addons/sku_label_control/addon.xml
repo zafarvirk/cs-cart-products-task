@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<addon>
+    <id>sku_label_control</id>
+    <name>SKU and Label Control</name>
+    <description>Adds toggleable additional SKU and product label management.</description>
+    <version>1.0.0</version>
+    <priority>100</priority>
+    <status>active</status>
+    <requirements>
+        <php_version>7.4.0</php_version>
+        <cscart_version>4.14.0</cscart_version>
+    </requirements>
+    <hooks>
+        <!-- Admin product hooks -->
+        <hook type="product" name="get_data_post" class="\Tygh\Addons\SkuLabelControl\Hooks\Product\ProductHook" method="getDataPost" />
+        <hook type="product" name="update_post" class="\Tygh\Addons\SkuLabelControl\Hooks\Product\ProductHook" method="updatePost" />
+        <hook type="product" name="form_general" class="\Tygh\Addons\SkuLabelControl\Hooks\Product\ProductHook" method="formGeneral" />
+
+        <!-- Frontend data hooks -->
+        <hook type="product" name="get_products_post" class="\Tygh\Addons\SkuLabelControl\Hooks\Product\ProductHook" method="getProductsPost" />
+
+        <!-- Import/Export -->
+        <hook type="product" name="import_extra_fields" class="\Tygh\Addons\SkuLabelControl\Hooks\Import\ImportHook" method="extraFields" />
+        <hook type="product" name="import_after_import" class="\Tygh\Addons\SkuLabelControl\Hooks\Import\ImportHook" method="afterImport" />
+        <hook type="product" name="export_get_fields" class="\Tygh\Addons\SkuLabelControl\Hooks\Export\ExportHook" method="getFields" />
+        <hook type="product" name="export_get_data" class="\Tygh\Addons\SkuLabelControl\Hooks\Export\ExportHook" method="getData" />
+    </hooks>
+    <installer>installer.php</installer>
+</addon>

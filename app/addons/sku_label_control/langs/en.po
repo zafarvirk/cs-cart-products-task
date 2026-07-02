@@ -1,0 +1,20 @@
+msgid "sku_label_control.sku_toggle"
+msgstr "Enable Additional SKU"
+
+msgid "sku_label_control.additional_sku"
+msgstr "Additional SKU"
+
+msgid "sku_label_control.additional_sku_description"
+msgstr "This SKU will appear on the product page and in listings if enabled."
+
+msgid "sku_label_control.label_enabled"
+msgstr "Enable Product Label"
+
+msgid "sku_label_control.label_text"
+msgstr "Label Text"
+
+msgid "sku_label_control.label_color"
+msgstr "Label Color (e.g., #ff0000 or red)"
+
+msgid "sku_label_control.label_color_description"
+msgstr "Enter a CSS color value for the label background."
