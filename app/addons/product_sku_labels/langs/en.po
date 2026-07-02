@@ -1,0 +1,40 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: product_sku_labels\n"
+"POT-Creation-Date: 2026-07-02 00:00+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Enable custom SKU"
+msgstr "Enable custom SKU"
+
+msgid "Show a custom SKU field for this product."
+msgstr "Show a custom SKU field for this product."
+
+msgid "Custom SKU"
+msgstr "Custom SKU"
+
+msgid "Show label on product card"
+msgstr "Show label on product card"
+
+msgid "Label text"
+msgstr "Label text"
+
+msgid "Label style"
+msgstr "Label style"
+
+msgid "Custom label color"
+msgstr "Custom label color"
+
+msgid "Sale"
+msgstr "Sale"
+
+msgid "New In"
+msgstr "New In"
+
+msgid "Limited Stock"
+msgstr "Limited Stock"
+
+msgid "Pre-Loved"
+msgstr "Pre-Loved"
